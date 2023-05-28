@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\HomeWork2.csproj": {}
+    "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\Task15\\Task15.csproj": {}
   },
   "projects": {
-    "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\HomeWork2.csproj": {
+    "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\Task15\\Task15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\HomeWork2.csproj",
-        "projectName": "HomeWork2",
-        "projectPath": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\HomeWork2.csproj",
+        "projectUniqueName": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\Task15\\Task15.csproj",
+        "projectName": "Task15",
+        "projectPath": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\Task15\\Task15.csproj",
         "packagesPath": "C:\\Users\\greez\\.nuget\\packages\\",
-        "outputPath": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\obj\\",
+        "outputPath": "G:\\GB\\Урок 2. Знакомство с языком программирования C# (Семинар)\\HomeWork2\\Task15\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
