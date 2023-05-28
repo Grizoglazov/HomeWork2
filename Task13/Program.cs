@@ -4,21 +4,21 @@
 // 32679 -> 6
 
 Console.WriteLine("Введите любое число: ");
-string input = Console.ReadLine();
-int number = Convert.ToInt32(input);
-if (number >=10000 && number <=99999)
+string input = Console.ReadLine();                              // присваиваю переменной input полученный аргумент
+int number = Convert.ToInt32(input);                            // ковертирую в целое значение переменной input
+if (number >=10000 && number <=99999)                           // выделяю диапазон для переменной 
 {
-    number%=1000;
-    Console.WriteLine("Третья цифра: {0}", number/=100);
+    number%=1000;                                               // уменьшаю разрядность числа
+    Console.WriteLine("Третья цифра: {0}", number/=100);        // нахожу искомое число по условию задачи
 }
-else if (number >=1000 && number <=9999)
+else if (number >=1000 && number <=9999)                        // выделяю диапазон для переменной 
 {
-    number%=100;
-    Console.WriteLine("Третья цифра: {0}", number/=10);
+    number%=100;                                                // уменьшаю разрядность числа
+    Console.WriteLine("Третья цифра: {0}", number/=10);         // нахожу искомое число по условию задачи
 }
-else if (number >=100 && number <=999)
+else if (number >=100 && number <=999)                           // выделяю диапазон для переменной 
 {
-    Console.WriteLine("Третья цифра: {0}", number%=10);
+    Console.WriteLine("Третья цифра: {0}", number%=10);          // нахожу искомое число по условию задачи
 }
 else
-Console.WriteLine("Третьей цифры нет");
+Console.WriteLine("Третьей цифры нет");                          // если число состоит из 2-х чисел
