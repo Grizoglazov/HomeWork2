@@ -6,36 +6,36 @@
 Console.WriteLine("Введите число: ");
 String input = Console.ReadLine();
 int date = Convert.ToInt32(input);
-if (date <= 7)
+if (date <= 7)                                    // в недели 7 календарных дней
 {
-    if (date == 1)
+    if (date == 1)                                // определяем день недели (Понедельник)
     {
         Console.WriteLine("Сегодня понедельник");
     }
-    else if (date == 2)
+    else if (date == 2)                           // определяем день недели (Вторник)
     {
         Console.WriteLine("Сегодня вторник");
     }
-    else if (date == 3)
+    else if (date == 3)                          // определяем день недели (Среда)
     {
         Console.WriteLine("Сегодня среда");
     }
-    else if (date == 4)
+    else if (date == 4)                         // определяем день недели (Четверг)
     {
         Console.WriteLine("Сегодня четверг");
     }
-    else if (date == 5)
+    else if (date == 5)                         // определяем день недели (Пятница)
     {
         Console.WriteLine("Сегодня пятница");
     }
-    else if (date == 6)
+    else if (date == 6)                         // определяем день недели (Суббота)
     {
         Console.WriteLine("Сегодня суббота, выходной день!!");
     }
-    else if (date == 7)
+    else if (date == 7)                         // определяем день недели (Воскресенье)
     {
         Console.WriteLine("Сегодня воскресенье, выходной день!!");
     }
 }
 else
-Console.WriteLine("Столько дней в недели не бывает!!"); 
+Console.WriteLine("Столько дней в недели не бывает!!"); // если количество дней больше чем дней в неделе
